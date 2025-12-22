@@ -34,7 +34,7 @@
       </button>
       <button class="tab-btn px-4 py-3 min-w-[90px] font-medium border-b-2 border-blue-600 text-blue-600 flex flex-col items-center space-y-1 text-sm sm:text-base" data-target="section-contact">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-18 8h18" /></svg>
-        <span>お問合せ</span>
+        <span>社長挨拶</span>
       </button>
     </div>
   </div>
@@ -52,7 +52,7 @@
 	        Technology Empowered Solutions
 	      </h1>
 	      <p class="text-gray-600 text-base sm:text-lg">
-	        テクノロジーの力で価値ある未来を創造する
+	        テクノロジーの力で、価値ある未来を創造する
 	      </p>
 	    </div>
 
@@ -134,6 +134,7 @@
           <li>・コールセンターシステム</li>
           <li>・銀行業務システム</li>
           <li>・ECサイト</li>
+          <li>・ECサイト</li>
         </ul>
       </div>
 
@@ -153,11 +154,11 @@
 
 <!-- COMPANY -->
 <section id="section-company" class="tab-section hidden">
-	 <div class="ax-w-5xl mx-auto mt-2 sm:mt-8 p-4 sm:p-6 space-y-10 text-center py-2 sm:py-4 bg-gradient-to-br from-blue-200 via-white to-indigo-100 via-blue-50 to-indigo-100 rounded-2xl shadow-xl">
+	 <div class="ax-w-5xl mx-auto mt-2 sm:mt-2 p-4 sm:p-6 space-y-10 text-center py-2 sm:py-4 bg-gradient-to-br from-blue-200 via-white to-indigo-100 via-blue-50 to-indigo-100 rounded-2xl shadow-xl">
 
     <!-- Title -->
-    <div class="text-center  mb-10 sm:mb-16">
-      <h1 class="text-3xl sm:text-5xl py-6 font-extrabold mb-4 tracking-wide drop-shadow-sm bg-gradient-to-r from-blue-700 to-indigo-700 text-transparent bg-clip-text">
+    <div class="text-center  mb-10 sm:mb-10">
+      <h1 class="text-3xl sm:text-5xl py-2 font-extrabold mb-4 tracking-wide drop-shadow-sm bg-gradient-to-r from-blue-700 to-indigo-700 text-transparent bg-clip-text">
         会社概要
       </h1>
     </div>
@@ -166,7 +167,7 @@
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
 
       <!-- Left : Company Info -->
-      <div class="rounded-xl p-6 sm:p-8 text-left">
+      <div class="rounded-xl p-6 sm:p-6 text-left">
         <dl class="space-y-4 text-sm sm:text-base text-gray-700">
 
           <div class="flex items-start">
@@ -206,6 +207,8 @@
             <div>
               <dt class="font-medium text-gray-500">所在地</dt>
               <dd>東京都江東区辰巳1-7-28</dd>
+              <dd>東京メトロ有楽町線『辰巳駅』徒歩10分</dd>
+              <dd>JR京葉線『潮見駅』徒歩15分</dd>
             </div>
           </div>
 
@@ -250,6 +253,20 @@
 		  </div>
 		</div>
 
+		<!-- 事業内容 -->
+		<div class="flex items-start">
+            <svg class="w-5 h-5 text-blue-600 mt-1 mr-3" fill="none" stroke="currentColor" stroke-width="2"
+                 viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M3 21h18M9 8h6m-6 4h6m-6 4h6M5 21V3h14v18" />
+            </svg>
+		  <div>
+		    <dt class="font-medium text-gray-500">事業内容</dt>
+		    <dd>コンピュータソフトウェアの開発および関連業務</dd>
+		  </div>
+		</div>
+
+
         </dl>
       </div>
 
@@ -268,20 +285,68 @@
 </section>
 
 
-    <!-- CONTACT-->
-    <section id="section-contact" class="tab-section hidden">
-	 <div class="ax-w-5xl mx-auto mt-2 sm:mt-8 p-4 sm:p-6 space-y-10 text-center py-2 sm:py-4 bg-gradient-to-br from-blue-200 via-white to-indigo-100 via-blue-50 to-indigo-100 rounded-2xl shadow-xl">
-       <h1 class="text-3xl sm:text-5xl py-2 font-extrabold mb-4 tracking-wide drop-shadow-sm bg-gradient-to-r from-blue-700 to-indigo-700 text-transparent bg-clip-text">お問い合わせ</h1>
-              <div class="rounded-xl p-6 sm:p-8">
-        <form class="bg-white p-4 sm:p-6 rounded shadow space-y-4" id="contact-form">
-          <input class="w-full border p-3 sm:p-4 rounded text-base" placeholder="お名前" name="name" required />
-          <input class="w-full border p-3 sm:p-4 rounded text-base" placeholder="メールアドレス" type="email" name="email" required />
-          <textarea class="w-full border p-3 sm:p-4 rounded text-base" rows="4" placeholder="お問い合わせ内容" name="message" required></textarea>
-          <button type="submit" class="w-full bg-blue-600 text-white px-4 py-3 sm:py-4 rounded hover:bg-blue-700 transition text-base sm:text-lg">送信</button>
-        </form>
-              </div>
+<!-- CONTACT / MESSAGE -->
+<section id="section-contact" class="tab-section hidden">
+  <div class="max-w-5xl mx-auto mt-8 sm:mt-12
+              p-6 sm:p-10
+              bg-white rounded-2xl shadow-xl">
+
+    <!-- Title -->
+    <div class="mb-8 sm:mb-12 text-center">
+      <h1 class="text-3xl sm:text-4xl font-extrabold
+                 bg-gradient-to-r from-blue-700 to-indigo-700
+                 text-transparent bg-clip-text">
+        社長挨拶
+      </h1>
+      <p class="text-gray-500 text-sm sm:text-base mt-2">
+        Message from the CEO
+      </p>
+    </div>
+
+    <!-- Message Card -->
+    <div class="bg-gray-50 rounded-xl p-6 sm:p-8
+                leading-relaxed text-gray-700
+                text-sm sm:text-base">
+
+      <p class="mb-4">
+        TesTechテクノロジー株式会社のホームページをご覧いただき、誠にありがとうございます。
+      </p>
+
+      <p class="mb-4">
+        この度、私たちは熱意と情熱に溢れるチームとともに、
+        新たなビジネスの舞台を築くために会社を設立しました。
+      </p>
+
+      <p class="mb-4">
+        私たちはITサービスを通じて、高品質で信頼されるソリューションを提供し、
+        お客様のビジネス成長に貢献することを使命としています。
+        お客様と共に成長し、長く選ばれ続けるITパートナーを目指します。
+      </p>
+
+      <p class="mb-4">
+        「技術力・誠実・透明性」を大切にし、
+        常にお客様と誠実に向き合い、
+        信頼に基づくパートナーシップを築いてまいります。
+      </p>
+
+      <p class="mb-4">
+        どのような課題にもお客様と共に向き合い、
+        共に乗り越える存在であり続けることをお約束します。
+      </p>
+
+      <p class="mb-8">
+        今後とも一層のご支援、ご鞭撻を賜りますようお願い申し上げます。
+      </p>
+
+      <!-- Signature -->
+      <div class="text-right text-gray-800">
+        <p class="font-medium">TesTechテクノロジー株式会社</p>
+        <p class="font-medium">代表取締役　何 朝立</p>
       </div>
-    </section> 
+
+    </div>
+  </div>
+</section>
 
   </div>
 
