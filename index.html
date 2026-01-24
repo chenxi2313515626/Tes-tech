@@ -19,7 +19,7 @@
   <meta property="og:site_name" content="TesTechテクノロジー株式会社" />
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="./TesTechlogo.png" />
+  <link rel="icon" type="image/png" href="./favicon.png" />
 
   <script src="https://cdn.tailwindcss.com"></script>
 
@@ -29,7 +29,10 @@
   <!-- Header -->
   <header class="bg-gradient-to-br from-blue-200 via-blue-50 to-gray-100 backdrop-blur shadow p-4 flex items-center justify-between sticky top-0 z-50">
     <div class="flex items-center space-x-3">
-      <img src="./TesTechlogo.png" class="h-12 sm:h-16 drop-shadow" />
+      <picture>
+        <source srcset="./TesTechlogo.webp" type="image/webp">
+        <img src="./TesTechlogo.png" alt="TesTech Logo" class="h-12 sm:h-16 drop-shadow" />
+      </picture>
       <span class="text-2xl sm:text-3xl font-extrabold tracking-wide bg-gradient-to-r from-blue-600 to-indigo-600 text-transparent bg-clip-text">TesTechテクノロジー株式会社</span>
     </div>
   </header>
