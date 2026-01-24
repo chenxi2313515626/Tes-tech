@@ -594,11 +594,13 @@
         // タブをクリック
         targetTab.click();
 
-        // ページ上部にスムーズスクロール
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-        });
+        // タブが切り替わった後にスクロール（即座に実行）
+        setTimeout(() => {
+          window.scrollTo({
+            top: 0,
+            behavior: 'auto'
+          });
+        }, 10);
       }
     }
 
